@@ -1,13 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
-  width: 80%;
-  margin: 50px auto;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .frame {
-  padding: 10px;
+  padding: 5px;
   border: 1px solid black;
 }
 
 #mymap {
-  height: 500px;
+  height: 400px;
+}
+
+.leaflet-marker-icon:active {
+  color: red;
+}
+
+/*
+ * POPUP
+ */
+
+.popup-btnGroup {
+  display: block;
+  margin-top: 5px;
+}
+
+.popup-btnGroup a {
+  border: 1px solid #777;
+  border-radius: 3px;
+  background-color: #ddd;
+  margin: 2px;
+  padding: 2px;
+  text-decoration: none;
+  color: black;
 }
